@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material/material.module';
-import { SideMenuComponent } from './components/side-menu/side-menu.component'
+import { SideMenuComponent } from './components/side-menu/side-menu.component';
+import { CategoryCardComponent } from './components/category-card/category-card.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SideMenuComponent
+    SideMenuComponent,
+    CategoryCardComponent
   ],
   imports: [
     BrowserModule,
