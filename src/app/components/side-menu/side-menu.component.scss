@@ -1,0 +1,15 @@
+
+// .cdk-overlay-container .cdk-overlay-connected-position-bounding-box .cdk-overlay-pane .mat-menu-content {
+//     display: flex !important;
+// }
+@import 'src/app/sass/variables.scss';
+
+.menu-btn {
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        color: $main-color;
+      }
+}
