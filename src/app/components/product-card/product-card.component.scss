@@ -1,0 +1,34 @@
+@import 'src/app/sass/variables.scss';
+
+.product-card-container {
+    height: 100vh;
+    background-image: url('/assets/image-hero.jpg');
+
+    .content-container {
+        width: 50%;
+        height: 50%;
+
+        .primary-title {
+            color: #878787;
+            letter-spacing: 5px;
+            font-size: 12px;
+        }
+
+        .main-title {
+            color: white;
+        }
+
+        .discription {
+            color: white;
+        }
+
+        .product-btn {
+            background-color: $main-color;
+            color: white;
+            width: 150px;
+            height: 40px;
+            border: none;
+            font-weight: bold;
+        }
+    }
+}
