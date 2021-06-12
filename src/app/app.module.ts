@@ -9,7 +9,8 @@ import {MaterialModule} from './material/material.module';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { CategoryCardComponent } from './components/category-card/category-card.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
-import { StaticComponentComponent } from './components/static-component/static-component.component'
+import { StaticComponentComponent } from './components/static-component/static-component.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { StaticComponentComponent } from './components/static-component/static-c
     SideMenuComponent,
     CategoryCardComponent,
     ProductCardComponent,
-    StaticComponentComponent
+    StaticComponentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
