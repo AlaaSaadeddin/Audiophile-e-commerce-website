@@ -1,4 +1,4 @@
-<div class="nav-container">
+<nav class="nav-container">
   <mat-toolbar class="toolbar" >
     <app-side-menu class="side-menu" ></app-side-menu>
     <svg class="logo" xmlns="http://www.w3.org/2000/svg">
@@ -24,9 +24,9 @@
       </span>
     </button>
   </mat-toolbar>
-</div>
+</nav>
 
-<app-product-card></app-product-card>
+<app-product-card [productCard]="productCard"></app-product-card>
 
 
 

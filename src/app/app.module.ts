@@ -8,7 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material/material.module';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { CategoryCardComponent } from './components/category-card/category-card.component';
-import { ProductCardComponent } from './components/product-card/product-card.component'
+import { ProductCardComponent } from './components/product-card/product-card.component';
+import { StaticComponentComponent } from './components/static-component/static-component.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProductCardComponent } from './components/product-card/product-card.com
     NavbarComponent,
     SideMenuComponent,
     CategoryCardComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    StaticComponentComponent
   ],
   imports: [
     BrowserModule,
