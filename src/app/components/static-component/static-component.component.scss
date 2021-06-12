@@ -1,0 +1,29 @@
+@import "src/app/sass/variables.scss";
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  .text-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      font-size: 40px;
+      .span-text {
+        color: $main-color;
+        line-height: 1.6;
+      }
+    }
+
+    .bio {
+      color: $gray-color;
+      margin-top: 20px;
+      line-height: 1.8;
+      width: 90%;
+    }
+  }
+}
