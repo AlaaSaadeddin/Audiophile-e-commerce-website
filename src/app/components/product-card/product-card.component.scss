@@ -13,42 +13,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-     
-        .text-content {
-            display: flex;
-            flex-direction: column;
-            width: 50%;
-            height: 50%;
-            align-items: flex-start;
-            justify-content: space-around;
-        }
-        .primary-title {
-            color: #878787;
-            letter-spacing: 10px;
-            font-size: 12px;
-            text-align: left;
-        }
+    }
 
-        .main-title {
-            color: white;
-            font-size: 40px;
-            text-align: left;
-            line-height: 1.1;
-        }
-
-        .description {
-            color: white;
-            text-align: left;
-            color: #c4c4c4;
-        }
-
-        .product-btn {
-            background-color: $main-color;
-            color: white;
-            width: 150px;
-            height: 40px;
-            border: none;
-            font-weight: bold;
-        }
+    .text-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-around;
     }
 }

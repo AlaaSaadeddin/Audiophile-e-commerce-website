@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import {product} from '../model/productCardData';
+import { Component, OnInit } from '@angular/core';
+// import { content } from 'src/app/model/textContentData';
 
 @Component({
   selector: 'app-product-card',
@@ -7,7 +7,10 @@ import {product} from '../model/productCardData';
   styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent implements OnInit {
-  @Input() productCard: product[]=[] ;
+   textContent : any = {primaryTitle:'NEW PRODUCT',mainTitle:'XXX99 MARK II HEADPHONES',
+   description:'Experience natural, life like audio and exceptional build quality made for the passionate music enthusiast.'}
+   
+  
 
   constructor() { }
 

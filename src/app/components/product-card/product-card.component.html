@@ -1,10 +1,5 @@
-<main class="product-card-container" >
-    <div class="content-container" >
-        <div class="text-content" >
-        <p class="primary-title" >{{productCard[0].primaryTitle}}</p>
-        <h2 class="main-title" >{{productCard[0].mainTitle}}</h2>
-        <p class="description" >{{productCard[0].description}}</p>
-        <button class="product-btn" >{{productCard[0].buttonText}}</button>
-        </div>
+<main class="product-card-container">
+    <div class="content-container">
+        <app-text-content class="text-content" [textContent]="textContent"></app-text-content>
     </div>
 </main>

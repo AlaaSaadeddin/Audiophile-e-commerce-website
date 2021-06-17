@@ -1,0 +1,10 @@
+@import 'src/app/sass/variables.scss';
+
+.basic-btn {
+    background-color: $main-color;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+}
