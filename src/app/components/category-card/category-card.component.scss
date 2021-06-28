@@ -7,6 +7,10 @@
   display: flex;
   margin-top: 100px;
   justify-content: space-between;
+
+  .router-link{
+    text-decoration: none;
+  }
 }
 
 .category-card {
