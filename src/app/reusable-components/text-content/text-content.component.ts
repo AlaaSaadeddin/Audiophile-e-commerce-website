@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./text-content.component.scss']
 })
 export class TextContentComponent implements OnInit {
-  newProduct : boolean = true;
+  newProduct : boolean = false;
   @Input() textContent: any ;
 
   constructor() { }

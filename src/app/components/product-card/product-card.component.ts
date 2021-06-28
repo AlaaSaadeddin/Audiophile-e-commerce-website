@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent implements OnInit {
+  newProduct : boolean = true;
+
    textContent : any = {primaryTitle:'NEW PRODUCT',mainTitle:'XXX99 MARK II HEADPHONES',
    description:'Experience natural, life like audio and exceptional build quality made for the passionate music enthusiast.'}
    

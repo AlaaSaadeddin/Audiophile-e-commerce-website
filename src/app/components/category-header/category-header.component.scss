@@ -1,0 +1,14 @@
+@import 'src/app/sass/variables.scss';
+
+.heading{
+    height: 30vh;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+        font-size: 40px;
+        color: white;
+    }
+}
