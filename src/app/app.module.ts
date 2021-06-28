@@ -21,6 +21,7 @@ import { ProductsCardComponent } from './reusable-components/products-card/produ
 import { HeadphonesPageComponent } from './pages/headphones-page/headphones-page.component';
 import { CategoryHeaderComponent } from './components/category-header/category-header.component';
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
+import { EarphonesPageComponent } from './pages/earphones-page/earphones-page.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.compo
     ProductsCardComponent,
     HeadphonesPageComponent,
     CategoryHeaderComponent,
-    SpeakersPageComponent
+    SpeakersPageComponent,
+    EarphonesPageComponent
   ],
   imports: [
     BrowserModule,
