@@ -7,10 +7,10 @@ import { ProductsCardComponent } from 'src/app/reusable-components/products-card
   styleUrls: ['./headphones-page.component.scss'],
 })
 export class HeadphonesPageComponent implements OnInit {
-  @ViewChildren(ProductsCardComponent)
-  myChild: ProductsCardComponent | undefined;
+  // @ViewChildren(ProductsCardComponent)
+  // myChild: ProductsCardComponent | undefined;
 
-  headphonesData: any = [
+  productData: any = [
     { image: '/assets/image-xx99-mark-two.jpg'},
     { image: '/assets/image-xx99-mark-one.jpg' },
     { image: '/assets/image-xx59.jpg' },
