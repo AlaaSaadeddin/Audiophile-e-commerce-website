@@ -1,0 +1,14 @@
+<main>
+  <div *ngFor="let data of headphonesData" class="container">
+    <div class="img-container">
+      <img class="image" src="{{data.image}}"/>
+    </div>
+
+    <div class="content-container">
+      <app-text-content
+        class="content"
+        [textContent]="textContent"
+      ></app-text-content>
+    </div>
+  </div>
+</main>
